@@ -1,5 +1,35 @@
 ### 康威生命游戏(元胞自动机)
 ---
+#### 介绍
+使用*scipy.signal*中的*convolve2d*方法对一个使用*pygame*建立的画布  
+以卷积的方式进行迭代  
+可以设置画布RGB三个颜色空间的初始值，以及卷积核的值  
+
+
+
+
+#### 克隆到本地
+
+##### 方式1: 使用*git bash*  
+1.选择工作目录打开*git bash*  
+2.*git bash*命令行运行  
+```GitBash
+$ git clone https://github.com/Comet966/Conway-s-Game-of-Life.git
+
+```
+使用自己的IDE打开main即可  
+
+##### 方式2:  本地配置环境
+*使用AnacondaPrompt*  
+```AnacondaPrompt
+> conda create env --name conway python=3.11
+> conda activate conway
+> pip pygame
+> install numpy scipy ffmpeg pillow
+
+```
+
+###### 使用IDE打开虚拟环境粘贴main.py代码即可  
 *实现* 
 *伪代码*
 ```python
