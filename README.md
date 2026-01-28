@@ -4,8 +4,18 @@
 使用*scipy.signal*中的*convolve2d*方法对一个使用*pygame*建立的画布  
 以卷积的方式进行迭代  
 可以设置画布RGB三个颜色空间的初始值，以及卷积核的值  
+conway.py对应的是经典的康威游戏，可以通过改变卷积核以及判断语句改变规则  
+对于Conway-Game的介绍可见此Wiki:[conway-game](https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E7%94%9F%E5%91%BD%E6%B8%B8%E6%88%8F)
 
+#### 展示
+##### main.py
+![main.py1](pictures/main_show1.png)  
 
+![main.py2](pictures/main_show2.png)  
+
+##### conway.py 
+![conway.py1](pictures/conway_show1.png)  
+![conway.py2](pictures/conway_show2.png)  
 
 
 #### 克隆到本地
